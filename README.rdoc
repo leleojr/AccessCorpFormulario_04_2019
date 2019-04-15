@@ -1,0 +1,12 @@
+Alterações para acessar a "API" e "Banco de Dados" no seu local
+
+1 - Acesso a API  
+  a - Abra o arquivo requestsAPIs.js no caminho "seu_path/AccessCorpFormulario/AccessCorpFormulario.Web/Scripts/requestsAPIs.js"
+  b - Altere a variável, primeira linha, "dominio"
+
+2 - Acesso ao banco de dados
+  a - Abra o web.config no caminho "seu_path/AccessCorpFormulario/AccessCorpFormulario.Web/Web.config" e altere o "Data Source" para o seu banco local.
+  b - Abra o web.config no caminho "seu_path/AccessCorpFormulario/AccessCorpFormulario.Apresentation.API/Web.config" e altere o "Data Source" para o seu banco local.
+                     
+Dica: caso tenha problemas com referências, excluir a pasta package em "seu_path//AccessCorpFormulario/packages" e clique com o botão direito 
+na solution "AccessCorpFormulario" e depois em "Restore Nuget Packages" 
